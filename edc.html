@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="source.css">
+    <title>eDC</title>
+</head>
+<body>
+    <div id="preloader">
+    
+    </div>
+
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="pic/eDCLogo.png" alt="logo">
+            </div>
+            <div class="menu">
+                <a href="/edc.html">HOME</a>
+                <a href="/page1.html">TEAMS</a>
+                <a href="#">EVENTS</a>
+                <a href="#">BLOG</a>
+                <a href="login.html">LOGIN</a>
+            </div>
+        </nav>
+        <div class="text">
+            <h1>eDC IIT DELHI <br> <span id="typing"></span></h1>
+            <button >Sign Up Now</button>
+        </div>
+        <div class="end">
+            <h5>We seek to Bring together <br> The World's leading Business Profferionals, <br> Entrepreneurs & Change Makers.</h5>
+        </div>
+        <video autoplay loop muted>
+            <source src="pic/bg.mp4" type="video/mp4">
+        </video>
+        
+    </header>
+    
+    <script>
+        var loader = document.getElementById("preloader");
+        window.addEventListener("load",function(){
+            loader.style.display = "none"
+        })
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.js" integrity="sha512-6jYd74hwloeB8HwKDIiUM3juIyZOCyPTrfJbEUlueTxNPjSjcQZr9DkO6P8xVRFuPYN6YitDunNKgxUwFfIixQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+var typed = new Typed('#typing', {
+  strings: ["Dare to Dream","Dare to Innovate","To Bring a Future","Let's CREAT"],
+  typeSpeed: 100,
+  backSpeed: 100,
+  loop:true
+});
+    </script>
+
+    
+</body>
+</html>
